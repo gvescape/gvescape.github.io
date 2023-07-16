@@ -8,10 +8,11 @@ body {
     font-family: Arial, sans-serif;
     background-color: #fff;
     color: #333;
+    padding: 20px;
 }
 
 .container {
-    width: 80%;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -37,21 +38,30 @@ nav ul li a {
     text-decoration: none;
 }
 
-nav ul li a:hover {
-    color: #777;
+nav ul li a img {
+    width: 30px;
+    height: 30px;
 }
 
 main {
     margin: 40px 0;
 }
 
-main section h2 {
-    margin-bottom: 10px;
+.bio-section {
+    display: flex;
+    gap: 20px;
 }
 
-main section img {
-    width: 150px;
-    height: 150px;
+.bio-section .bio-image {
+    flex: 1;
+}
+
+.bio-section .bio-text {
+    flex: 2;
+}
+
+.bio-section img {
+    width: 100%;
     object-fit: cover;
     border-radius: 50%;
 }
