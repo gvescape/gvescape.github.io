@@ -44,12 +44,13 @@ nav a {
 }
 
 .bio-image img {
-    max-width: 45%;
+    max-width: 40%; 
     height: auto;
+    margin-right: 2rem; 
 }
 
 .bio-text {
-    max-width: 50%;
+    max-width: 45%;
 }
 
 footer {
