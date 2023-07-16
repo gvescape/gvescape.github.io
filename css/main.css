@@ -39,20 +39,21 @@ nav a {
 
 .bio-section {
     display: flex;
-    justify-content: flex-start; /* Align items at the start */
+    justify-content: flex-start; 
     margin-top: 2rem;
-    color: grey; /* Change color to grey */
+    color: grey; 
 }
 
 .bio-image img {
-    max-width: 40%; 
+    max-width: 35%; 
     height: auto;
-    margin-right: 2rem; /* Control space with right margin */
+    margin-right: 1rem; 
 }
 
 .bio-text {
-    max-width: 45%;
+    max-width: 60%;
 }
+
 
 footer {
     text-align: center;
