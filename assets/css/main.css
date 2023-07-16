@@ -205,10 +205,10 @@ input, select, textarea {
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #676869, #b74e91);
+				background-image: -webkit-linear-gradient(to right, #676869, #b74e91);
+				background-image: -ms-linear-gradient(to right, #676869, #b74e91);
+				background-image: linear-gradient(to right, #676869, #b74e91);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -1922,7 +1922,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #5e42a6;
+			background-color: #676869;
 			color: #312450 !important;
 		}
 
@@ -2450,7 +2450,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #5e42a6;
+			background: #676869;
 			border-color: #ffffff;
 			color: #b74e91;
 			content: '\f00c';
@@ -3248,7 +3248,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #676869;
 		}
 
 		.wrapper.style1-alt {
@@ -3378,7 +3378,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: #676869;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
